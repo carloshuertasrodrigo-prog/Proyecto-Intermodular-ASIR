@@ -49,3 +49,5 @@ Diseñar e implementar una infraestructura informática integral para VeraVel qu
 | Administradores de sistemas | Gestión y mantenimiento de la infraestructura | Administrar los servidores, servicios, usuarios y recursos |
 | Empleados | Usuarios de los recursos informáticos | Utilizar los servicios y recursos necesarios para realizar su trabajo |
 | Clientes | Usuarios de los servicios de la empresa | Consultar información relacionada con sus envíos y paquetes |
+
+Este proyecto integra los conocimientos adquiridos en los diferentes módulos de ASIR.
