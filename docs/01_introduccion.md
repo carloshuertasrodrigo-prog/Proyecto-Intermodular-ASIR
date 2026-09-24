@@ -23,3 +23,20 @@ Actualmente, la información y los recursos pueden encontrarse dispersos, lo que
 Además, la empresa necesita facilitar la gestión de la información relacionada con sus clientes, envíos y paquetes, así como disponer de una presencia web corporativa.
 
 Por ello, existe la necesidad de contar con una infraestructura informática organizada que permita centralizar y gestionar los recursos y la información de la empresa de forma adecuada.
+
+## 1.4. Objetivos
+
+### Objetivo general
+
+Diseñar e implementar una infraestructura informática integral para VeraVel que permita organizar y centralizar sus recursos, servicios e información, facilitando la gestión de la actividad de la empresa.
+
+### Objetivos específicos
+
+- Analizar las necesidades informáticas de la empresa.
+- Diseñar una infraestructura de red organizada.
+- Configurar un entorno de servidores virtualizados.
+- Implementar servicios de red como DHCP, DNS, HTTP y FTP.
+- Diseñar una base de datos para gestionar la información de la empresa.
+- Diseñar una página web corporativa.
+- Integrar los diferentes servicios que forman parte de la infraestructura.
+- Documentar la infraestructura, los servicios y los recursos utilizados.
