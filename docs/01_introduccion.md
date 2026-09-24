@@ -40,3 +40,12 @@ Diseñar e implementar una infraestructura informática integral para VeraVel qu
 - Diseñar una página web corporativa.
 - Integrar los diferentes servicios que forman parte de la infraestructura.
 - Documentar la infraestructura, los servicios y los recursos utilizados.
+
+## 1.5. Interesados
+
+| Interesado | Relación con el proyecto | Necesidad principal |
+|---|---|---|
+| VeraVel | Empresa para la que se desarrolla el proyecto | Disponer de una infraestructura informática organizada y funcional |
+| Administradores de sistemas | Gestión y mantenimiento de la infraestructura | Administrar los servidores, servicios, usuarios y recursos |
+| Empleados | Usuarios de los recursos informáticos | Utilizar los servicios y recursos necesarios para realizar su trabajo |
+| Clientes | Usuarios de los servicios de la empresa | Consultar información relacionada con sus envíos y paquetes |
