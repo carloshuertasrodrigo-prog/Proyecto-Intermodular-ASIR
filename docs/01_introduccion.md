@@ -51,3 +51,5 @@ Diseñar e implementar una infraestructura informática integral para VeraVel qu
 | Clientes | Usuarios de los servicios de la empresa | Consultar información relacionada con sus envíos y paquetes |
 
 Este proyecto integra los conocimientos adquiridos en los diferentes módulos de ASIR.
+
+La documentación del proyecto se irá ampliando durante su desarrollo.
