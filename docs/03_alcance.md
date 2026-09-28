@@ -107,5 +107,5 @@ Se ha elegido Cisco Packet Tracer porque el proyecto necesita trabajar principal
 
 Para la ejecución de los servidores y máquinas virtuales se utilizará VirtualBox, que permitirá crear los entornos virtualizados necesarios para instalar y configurar los sistemas operativos y servicios del proyecto.
 
-Por tanto, GNS3 se utilizará principalmente para el diseño y simulación de la red, mientras que VirtualBox se utilizará para la virtualización de los servidores y equipos necesarios.
+Por tanto, Cisco Packet Tracer se utilizará principalmente para el diseño y simulación de la red, mientras que VirtualBox se utilizará para la virtualización de los servidores y equipos necesarios.
 
