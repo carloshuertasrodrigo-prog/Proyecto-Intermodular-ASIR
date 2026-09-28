@@ -61,3 +61,39 @@ El proyecto se desarrollará mediante diferentes fases, desde el análisis inici
 
 Estas fases permiten organizar el desarrollo del proyecto de forma progresiva, comprobando el funcionamiento de cada parte antes de continuar con la siguiente.
 
+## 3.4. Alcance de recursos
+
+Para desarrollar el proyecto serán necesarios recursos humanos, materiales y económicos.
+
+### Recursos humanos
+
+El proyecto requiere diferentes perfiles relacionados con la administración de sistemas, redes, bases de datos y desarrollo web:
+
+- Administrador de sistemas.
+- Técnico de redes.
+- Técnico de bases de datos.
+- Desarrollador web.
+
+### Recursos materiales y software
+
+Entre los principales recursos necesarios se encuentran:
+
+- Servidor para alojar la infraestructura.
+- Equipos de red, como routers y switches.
+- Equipos cliente.
+- Sistema de alimentación ininterrumpida (SAI).
+- Rack y elementos de organización del cableado.
+- Sistema de almacenamiento para las copias de seguridad.
+- Sistema operativo Linux Server.
+- VirtualBox.
+- GNS3.
+- MariaDB.
+- Apache.
+- Herramientas de desarrollo web.
+
+### Presupuesto
+
+El presupuesto debe contemplar tanto los equipos necesarios para la infraestructura como los recursos relacionados con su configuración y puesta en funcionamiento.
+
+Como referencia para el proyecto, se tendrá en cuenta el coste del equipamiento, el software necesario y las horas de trabajo dedicadas al diseño, configuración, pruebas y documentación.
+
