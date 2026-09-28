@@ -63,3 +63,15 @@ El proyecto deberá disponer de una base de datos que permita almacenar y gestio
 | ASGBD-04 | El sistema gestor de bases de datos deberá permitir realizar consultas y gestionar la información almacenada. |
 | ASGBD-05 | Se deberán realizar copias de seguridad de la información de la base de datos. |
 
+### 4.4.2. ASO - Administración de Sistemas Operativos
+
+El proyecto deberá utilizar un sistema operativo de servidor que permita instalar, configurar y administrar los servicios necesarios para la infraestructura.
+
+| **Código** | **Requisito** |
+|---|---|
+| ASO-01 | El servidor deberá utilizar un sistema operativo Linux. |
+| ASO-02 | El sistema deberá permitir administrar usuarios y grupos. |
+| ASO-03 | El sistema deberá permitir configurar permisos de acceso a los recursos. |
+| ASO-04 | El sistema deberá permitir instalar y administrar los servicios necesarios para el proyecto. |
+| ASO-05 | El sistema deberá permitir realizar tareas de administración y mantenimiento del servidor. |
+
