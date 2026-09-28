@@ -87,3 +87,16 @@ El proyecto deberá disponer de una página web corporativa que permita presenta
 | IAW-04 | La página web deberá poder ser accesible desde los equipos autorizados de la red. |
 | IAW-05 | El servicio web deberá poder comprobarse mediante pruebas de acceso y funcionamiento. |
 
+### 4.4.4. Servicios de Red e Internet
+
+El proyecto deberá disponer de los servicios de red necesarios para permitir la comunicación y el funcionamiento de los diferentes equipos y servicios de la infraestructura.
+
+| **Código** | **Requisito** |
+|---|---|
+| SRI-01 | La infraestructura deberá disponer de un servicio DHCP para la asignación automática de direcciones IP. |
+| SRI-02 | La infraestructura deberá disponer de un servicio DNS para la resolución de nombres. |
+| SRI-03 | La infraestructura deberá disponer de un servicio HTTP para alojar la página web. |
+| SRI-04 | La infraestructura deberá disponer de un servicio FTP para la transferencia de archivos. |
+| SRI-05 | Los diferentes equipos y servicios deberán poder comunicarse correctamente dentro de la red. |
+| SRI-06 | Se deberán realizar pruebas de conectividad para comprobar el funcionamiento de la infraestructura. |
+
