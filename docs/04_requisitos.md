@@ -100,3 +100,16 @@ El proyecto deberá disponer de los servicios de red necesarios para permitir la
 | SRI-05 | Los diferentes equipos y servicios deberán poder comunicarse correctamente dentro de la red. |
 | SRI-06 | Se deberán realizar pruebas de conectividad para comprobar el funcionamiento de la infraestructura. |
 
+### 4.4.5. Seguridad y Alta Disponibilidad
+
+El proyecto deberá incorporar medidas básicas de seguridad y mecanismos que permitan mantener los servicios disponibles y proteger la información de la empresa.
+
+| **Código** | **Requisito** |
+|---|---|
+| SAI-01 | El acceso a los sistemas deberá estar protegido mediante usuarios y contraseñas. |
+| SAI-02 | Los usuarios deberán disponer únicamente de los permisos necesarios para realizar sus funciones. |
+| SAI-03 | El servidor deberá disponer de medidas básicas de protección frente a accesos no autorizados. |
+| SAI-04 | Se deberán realizar copias de seguridad de la información importante. |
+| SAI-05 | Se deberán realizar pruebas para comprobar el funcionamiento de los servicios después de realizar cambios en la configuración. |
+| SAI-06 | La infraestructura deberá estar preparada para facilitar futuras ampliaciones y tareas de mantenimiento. |
+
