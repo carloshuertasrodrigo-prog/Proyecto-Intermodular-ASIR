@@ -45,3 +45,19 @@ Las principales tecnologías y plataformas consideradas son:
 
 El alcance técnico se centra en diseñar, configurar y probar estos elementos dentro del entorno de trabajo del proyecto. La elección definitiva de la plataforma de virtualización se justificará en un apartado posterior.
 
+## 3.3. Alcance temporal
+
+El proyecto se desarrollará mediante diferentes fases, desde el análisis inicial hasta la realización de pruebas y la documentación final.
+
+| **Fase** | **Actividad principal** | **Entregable** |
+|---|---|---|
+| 1 | Análisis de necesidades y diseño | Análisis y diseño inicial |
+| 2 | Diseño y configuración de la red | Diseño de la infraestructura de red |
+| 3 | Configuración de servicios | Servicios de red configurados |
+| 4 | Diseño e implementación de la base de datos | Base de datos funcional |
+| 5 | Desarrollo de la página web | Página web corporativa |
+| 6 | Pruebas de funcionamiento | Resultados de las pruebas |
+| 7 | Documentación | Documentación técnica final |
+
+Estas fases permiten organizar el desarrollo del proyecto de forma progresiva, comprobando el funcionamiento de cada parte antes de continuar con la siguiente.
+
