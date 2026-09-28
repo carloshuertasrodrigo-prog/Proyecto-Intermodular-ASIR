@@ -35,7 +35,7 @@ Las principales tecnologías y plataformas consideradas son:
 
 - **Linux Server** como sistema operativo para los servicios de servidor.
 - **VirtualBox** para la creación y gestión de máquinas virtuales.
-- **GNS3** para el diseño y simulación de la infraestructura de red.
+- **Cisco Packet Tracer** para el diseño y simulación de la infraestructura de red.
 - **Docker** como tecnología que puede utilizarse para ejecutar determinados servicios de forma aislada.
 - **MariaDB** como sistema gestor de bases de datos.
 - **Apache** para el servicio web.
@@ -86,7 +86,7 @@ Entre los principales recursos necesarios se encuentran:
 - Sistema de almacenamiento para las copias de seguridad.
 - Sistema operativo Linux Server.
 - VirtualBox.
-- GNS3.
+- Cisco Packet Tracer.
 - MariaDB.
 - Apache.
 - Herramientas de desarrollo web.
@@ -99,11 +99,11 @@ Como referencia para el proyecto, se tendrá en cuenta el coste del equipamiento
 
 ## 3.5. Elección y justificación de la plataforma de virtualización
 
-Para el desarrollo del proyecto se utilizará GNS3 como plataforma principal para diseñar y simular la infraestructura de red.
+Para el desarrollo del proyecto se utilizará Cisco Packet Tracer como plataforma principal para diseñar y simular la infraestructura de red.
 
-GNS3 permite representar la topología de red y comprobar el funcionamiento de los diferentes dispositivos y conexiones antes de realizar una posible implantación física.
+Cisco Packet Tracer permite representar la topología de red y comprobar el funcionamiento de los diferentes dispositivos y conexiones antes de realizar una posible implantación física.
 
-Se ha elegido GNS3 porque el proyecto necesita trabajar principalmente con una infraestructura de red formada por diferentes dispositivos y servicios. Además, permite realizar pruebas y detectar posibles problemas de configuración durante la fase de desarrollo.
+Se ha elegido Cisco Packet Tracer porque el proyecto necesita trabajar principalmente con una infraestructura de red formada por diferentes dispositivos y servicios. Además, permite realizar pruebas y detectar posibles problemas de configuración durante la fase de desarrollo.
 
 Para la ejecución de los servidores y máquinas virtuales se utilizará VirtualBox, que permitirá crear los entornos virtualizados necesarios para instalar y configurar los sistemas operativos y servicios del proyecto.
 
