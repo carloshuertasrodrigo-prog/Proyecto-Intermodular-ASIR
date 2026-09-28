@@ -17,3 +17,12 @@ Actualmente, VeraVel necesita una infraestructura informática que permita gesti
 El proyecto plantea el uso de un servidor virtualizado basado en Linux, junto con diferentes servicios de red, una base de datos y una página web corporativa. También se contempla la utilización de máquinas virtuales para separar los diferentes servicios.
 
 El nivel de digitalización del proyecto se basa en centralizar la información y los servicios informáticos, facilitando la administración de la red, la gestión de los datos y el acceso a los recursos de la empresa.
+
+## 2.3. Contexto del mercado
+
+VeraVel pertenece al sector de la paquetería y mensajería, un sector en el que la gestión de clientes, envíos y paquetes requiere el uso de sistemas informáticos para organizar la información y los servicios de la empresa.
+
+Dentro de este contexto, las empresas del sector necesitan disponer de sistemas que permitan gestionar sus datos y recursos de forma organizada y facilitar el seguimiento de los envíos.
+
+El proyecto tiene en cuenta esta necesidad mediante una infraestructura informática centralizada que integra servicios de red, una base de datos y una página web corporativa.
+
