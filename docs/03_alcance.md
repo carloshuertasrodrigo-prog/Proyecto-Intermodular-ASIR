@@ -27,3 +27,21 @@ El proyecto incluye el diseño e implementación de una infraestructura informá
 - El desarrollo de una aplicación móvil.
 - La implantación de sistemas informáticos que no estén relacionados con los objetivos definidos para este proyecto.
 
+## 3.2. Alcance técnico
+
+El proyecto contempla el diseño y configuración de una infraestructura informática basada en tecnologías de virtualización y servicios de red.
+
+Las principales tecnologías y plataformas consideradas son:
+
+- **Linux Server** como sistema operativo para los servicios de servidor.
+- **VirtualBox** para la creación y gestión de máquinas virtuales.
+- **GNS3** para el diseño y simulación de la infraestructura de red.
+- **Docker** como tecnología que puede utilizarse para ejecutar determinados servicios de forma aislada.
+- **MariaDB** como sistema gestor de bases de datos.
+- **Apache** para el servicio web.
+- **DHCP y DNS** para la configuración y resolución de la red.
+- **FTP** para la transferencia de archivos.
+- **HTML y CSS** para el desarrollo de la página web corporativa.
+
+El alcance técnico se centra en diseñar, configurar y probar estos elementos dentro del entorno de trabajo del proyecto. La elección definitiva de la plataforma de virtualización se justificará en un apartado posterior.
+
