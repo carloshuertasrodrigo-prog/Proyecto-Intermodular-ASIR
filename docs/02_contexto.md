@@ -10,3 +10,10 @@ El proyecto plantea una infraestructura informática adaptada a las necesidades 
 
 El proyecto de infraestructura está planteado para una empresa de tamaño PYME. En la documentación disponible no se especifican datos concretos sobre el número de trabajadores, la facturación o el año de creación de VeraVel, por lo que estos datos no se incluyen.
 
+## 2.2. Contexto tecnológico
+
+Actualmente, VeraVel necesita una infraestructura informática que permita gestionar de forma organizada los recursos y la información de la empresa.
+
+El proyecto plantea el uso de un servidor virtualizado basado en Linux, junto con diferentes servicios de red, una base de datos y una página web corporativa. También se contempla la utilización de máquinas virtuales para separar los diferentes servicios.
+
+El nivel de digitalización del proyecto se basa en centralizar la información y los servicios informáticos, facilitando la administración de la red, la gestión de los datos y el acceso a los recursos de la empresa.
