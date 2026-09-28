@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Alcance - Proyecto Intermodular ASIR</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../css/brands.min.css" rel="stylesheet">
+        <link href="../css/solid.min.css" rel="stylesheet">
+        <link href="../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <link href="../stylesheets/extra.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">Proyecto Intermodular ASIR</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href=".." class="nav-link">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../01_introduccion/" class="nav-link">Introducción</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../02_contexto/" class="nav-link">Contexto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./" class="nav-link active" aria-current="page">Alcance</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../04_requisitos/" class="nav-link">Requisitos</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../02_contexto/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../04_requisitos/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#3-definir-alcance" class="nav-link">3. Definir alcance</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#31-alcance-funcional" class="nav-link">3.1. Alcance funcional</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#32-alcance-tecnico" class="nav-link">3.2. Alcance técnico</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#33-alcance-temporal" class="nav-link">3.3. Alcance temporal</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#34-alcance-de-recursos" class="nav-link">3.4. Alcance de recursos</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#35-eleccion-y-justificacion-de-la-plataforma-de-virtualizacion" class="nav-link">3.5. Elección y justificación de la plataforma de virtualización</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="3-definir-alcance">3. Definir alcance</h1>
+<p>En este apartado se define el alcance del proyecto de infraestructura informática de VeraVel. Se establecen las funciones que formarán parte del proyecto, los aspectos que quedan fuera de él, las tecnologías que se utilizarán, la planificación temporal y los recursos necesarios.</p>
+<h2 id="31-alcance-funcional">3.1. Alcance funcional</h2>
+<p>El proyecto incluye el diseño e implementación de una infraestructura informática para VeraVel que permita centralizar y organizar los principales recursos y servicios informáticos de la empresa.</p>
+<h3 id="incluye">Incluye</h3>
+<ul>
+<li>Diseño de la infraestructura de red.</li>
+<li>Configuración de un servidor basado en Linux.</li>
+<li>Configuración de servicios de red como DHCP, DNS, HTTP y FTP.</li>
+<li>Diseño e implementación de una base de datos para gestionar la información de clientes, envíos, paquetes y otros elementos relacionados con la actividad de la empresa.</li>
+<li>Desarrollo de una página web corporativa.</li>
+<li>Integración de los diferentes servicios de la infraestructura.</li>
+<li>Configuración de máquinas virtuales para separar determinados servicios.</li>
+<li>Configuración de medidas básicas de seguridad, usuarios y permisos.</li>
+<li>Realización de pruebas de funcionamiento y conectividad.</li>
+<li>Elaboración de la documentación técnica del proyecto.</li>
+</ul>
+<h3 id="no-incluye">No incluye</h3>
+<ul>
+<li>La instalación física de toda la infraestructura en las instalaciones reales de VeraVel.</li>
+<li>La adquisición real de servidores, switches u otros equipos.</li>
+<li>La contratación de servicios externos de Internet.</li>
+<li>El desarrollo de una aplicación móvil.</li>
+<li>La implantación de sistemas informáticos que no estén relacionados con los objetivos definidos para este proyecto.</li>
+</ul>
+<h2 id="32-alcance-tecnico">3.2. Alcance técnico</h2>
+<p>El proyecto contempla el diseño y configuración de una infraestructura informática basada en tecnologías de virtualización y servicios de red.</p>
+<p>Las principales tecnologías y plataformas consideradas son:</p>
+<ul>
+<li><strong>Linux Server</strong> como sistema operativo para los servicios de servidor.</li>
+<li><strong>VirtualBox</strong> para la creación y gestión de máquinas virtuales.</li>
+<li><strong>Cisco Packet Tracer</strong> para el diseño y simulación de la infraestructura de red.</li>
+<li><strong>Docker</strong> como tecnología que puede utilizarse para ejecutar determinados servicios de forma aislada.</li>
+<li><strong>MariaDB</strong> como sistema gestor de bases de datos.</li>
+<li><strong>Apache</strong> para el servicio web.</li>
+<li><strong>DHCP y DNS</strong> para la configuración y resolución de la red.</li>
+<li><strong>FTP</strong> para la transferencia de archivos.</li>
+<li><strong>HTML y CSS</strong> para el desarrollo de la página web corporativa.</li>
+</ul>
+<p>El alcance técnico se centra en diseñar, configurar y probar estos elementos dentro del entorno de trabajo del proyecto. La elección definitiva de la plataforma de virtualización se justificará en un apartado posterior.</p>
+<h2 id="33-alcance-temporal">3.3. Alcance temporal</h2>
+<p>El proyecto se desarrollará mediante diferentes fases, desde el análisis inicial hasta la realización de pruebas y la documentación final.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Fase</strong></th>
+<th><strong>Actividad principal</strong></th>
+<th><strong>Entregable</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Análisis de necesidades y diseño</td>
+<td>Análisis y diseño inicial</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Diseño y configuración de la red</td>
+<td>Diseño de la infraestructura de red</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Configuración de servicios</td>
+<td>Servicios de red configurados</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Diseño e implementación de la base de datos</td>
+<td>Base de datos funcional</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Desarrollo de la página web</td>
+<td>Página web corporativa</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Pruebas de funcionamiento</td>
+<td>Resultados de las pruebas</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Documentación</td>
+<td>Documentación técnica final</td>
+</tr>
+</tbody>
+</table>
+<p>Estas fases permiten organizar el desarrollo del proyecto de forma progresiva, comprobando el funcionamiento de cada parte antes de continuar con la siguiente.</p>
+<h2 id="34-alcance-de-recursos">3.4. Alcance de recursos</h2>
+<p>Para desarrollar el proyecto serán necesarios recursos humanos, materiales y económicos.</p>
+<h3 id="recursos-humanos">Recursos humanos</h3>
+<p>El proyecto requiere diferentes perfiles relacionados con la administración de sistemas, redes, bases de datos y desarrollo web:</p>
+<ul>
+<li>Administrador de sistemas.</li>
+<li>Técnico de redes.</li>
+<li>Técnico de bases de datos.</li>
+<li>Desarrollador web.</li>
+</ul>
+<h3 id="recursos-materiales-y-software">Recursos materiales y software</h3>
+<p>Entre los principales recursos necesarios se encuentran:</p>
+<ul>
+<li>Servidor para alojar la infraestructura.</li>
+<li>Equipos de red, como routers y switches.</li>
+<li>Equipos cliente.</li>
+<li>Sistema de alimentación ininterrumpida (SAI).</li>
+<li>Rack y elementos de organización del cableado.</li>
+<li>Sistema de almacenamiento para las copias de seguridad.</li>
+<li>Sistema operativo Linux Server.</li>
+<li>VirtualBox.</li>
+<li>Cisco Packet Tracer.</li>
+<li>MariaDB.</li>
+<li>Apache.</li>
+<li>Herramientas de desarrollo web.</li>
+</ul>
+<h3 id="presupuesto">Presupuesto</h3>
+<p>El presupuesto debe contemplar tanto los equipos necesarios para la infraestructura como los recursos relacionados con su configuración y puesta en funcionamiento.</p>
+<p>Como referencia para el proyecto, se tendrá en cuenta el coste del equipamiento, el software necesario y las horas de trabajo dedicadas al diseño, configuración, pruebas y documentación.</p>
+<h2 id="35-eleccion-y-justificacion-de-la-plataforma-de-virtualizacion">3.5. Elección y justificación de la plataforma de virtualización</h2>
+<p>Para el desarrollo del proyecto se utilizará Cisco Packet Tracer como plataforma principal para diseñar y simular la infraestructura de red.</p>
+<p>Cisco Packet Tracer permite representar la topología de red y comprobar el funcionamiento de los diferentes dispositivos y conexiones antes de realizar una posible implantación física.</p>
+<p>Se ha elegido Cisco Packet Tracer porque el proyecto necesita trabajar principalmente con una infraestructura de red formada por diferentes dispositivos y servicios. Además, permite realizar pruebas y detectar posibles problemas de configuración durante la fase de desarrollo.</p>
+<p>Para la ejecución de los servidores y máquinas virtuales se utilizará VirtualBox, que permitirá crear los entornos virtualizados necesarios para instalar y configurar los sistemas operativos y servicios del proyecto.</p>
+<p>Por tanto, Cisco Packet Tracer se utilizará principalmente para el diseño y simulación de la red, mientras que VirtualBox se utilizará para la virtualización de los servidores y equipos necesarios.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

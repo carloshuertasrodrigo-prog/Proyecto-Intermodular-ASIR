@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Requisitos - Proyecto Intermodular ASIR</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../css/brands.min.css" rel="stylesheet">
+        <link href="../css/solid.min.css" rel="stylesheet">
+        <link href="../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <link href="../stylesheets/extra.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">Proyecto Intermodular ASIR</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href=".." class="nav-link">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../01_introduccion/" class="nav-link">Introducción</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../02_contexto/" class="nav-link">Contexto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../03_alcance/" class="nav-link">Alcance</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./" class="nav-link active" aria-current="page">Requisitos</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../03_alcance/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" class="nav-link disabled">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#4-establecer-requisitos" class="nav-link">4. Establecer requisitos</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#41-requisitos-funcionales" class="nav-link">4.1. Requisitos funcionales</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#42-requisitos-no-funcionales" class="nav-link">4.2. Requisitos no funcionales</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#43-requisitos-de-negocio" class="nav-link">4.3. Requisitos de negocio</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#44-requisitos-por-modulos-de-asir" class="nav-link">4.4. Requisitos por módulos de ASIR</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#45-matriz-de-trazabilidad" class="nav-link">4.5. Matriz de trazabilidad</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="4-establecer-requisitos">4. Establecer requisitos</h1>
+<p>En este apartado se definen los requisitos que debe cumplir la infraestructura informática de VeraVel. Se establecen los requisitos funcionales, no funcionales y de negocio, además de los requisitos relacionados con los diferentes módulos de ASIR.</p>
+<p>También se incluye una matriz de trazabilidad para relacionar los requisitos con las partes del proyecto que permiten cumplirlos.</p>
+<h2 id="41-requisitos-funcionales">4.1. Requisitos funcionales</h2>
+<p>Los requisitos funcionales describen las funciones y servicios que debe proporcionar la infraestructura informática de VeraVel.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Código</strong></th>
+<th><strong>Requisito funcional</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RF-01</td>
+<td>El sistema deberá permitir la gestión de los usuarios y sus permisos de acceso.</td>
+</tr>
+<tr>
+<td>RF-02</td>
+<td>El sistema deberá proporcionar un servicio DHCP para asignar direcciones IP a los equipos de la red.</td>
+</tr>
+<tr>
+<td>RF-03</td>
+<td>El sistema deberá proporcionar un servicio DNS para resolver los nombres de los equipos y servicios de la infraestructura.</td>
+</tr>
+<tr>
+<td>RF-04</td>
+<td>El sistema deberá proporcionar un servicio web para alojar la página corporativa de VeraVel.</td>
+</tr>
+<tr>
+<td>RF-05</td>
+<td>El sistema deberá proporcionar un servicio FTP para permitir la transferencia de archivos.</td>
+</tr>
+<tr>
+<td>RF-06</td>
+<td>La base de datos deberá permitir almacenar y gestionar información de clientes, envíos, paquetes y otros elementos relacionados con la actividad de la empresa.</td>
+</tr>
+<tr>
+<td>RF-07</td>
+<td>La página web deberá permitir mostrar información corporativa de VeraVel.</td>
+</tr>
+<tr>
+<td>RF-08</td>
+<td>El sistema deberá permitir realizar pruebas de conectividad entre los diferentes equipos y servicios de la infraestructura.</td>
+</tr>
+<tr>
+<td>RF-09</td>
+<td>El sistema deberá permitir realizar copias de seguridad de la información importante.</td>
+</tr>
+<tr>
+<td>RF-10</td>
+<td>El sistema deberá permitir administrar los servicios y recursos de la infraestructura desde el entorno de servidor.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="42-requisitos-no-funcionales">4.2. Requisitos no funcionales</h2>
+<p>Los requisitos no funcionales establecen las características que debe cumplir la infraestructura informática para garantizar un funcionamiento adecuado.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Código</strong></th>
+<th><strong>Requisito no funcional</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RNF-01</td>
+<td>La infraestructura deberá disponer de mecanismos básicos de seguridad para proteger los sistemas y la información.</td>
+</tr>
+<tr>
+<td>RNF-02</td>
+<td>Los usuarios deberán disponer únicamente de los permisos necesarios para realizar sus funciones.</td>
+</tr>
+<tr>
+<td>RNF-03</td>
+<td>Los servicios deberán estar configurados de forma que permitan una administración organizada de la infraestructura.</td>
+</tr>
+<tr>
+<td>RNF-04</td>
+<td>La infraestructura deberá permitir realizar copias de seguridad de la información importante.</td>
+</tr>
+<tr>
+<td>RNF-05</td>
+<td>Los servicios deberán ofrecer un funcionamiento estable durante su utilización.</td>
+</tr>
+<tr>
+<td>RNF-06</td>
+<td>La infraestructura deberá poder ampliarse en el futuro según las necesidades de VeraVel.</td>
+</tr>
+<tr>
+<td>RNF-07</td>
+<td>La documentación técnica deberá permitir comprender y mantener la configuración realizada.</td>
+</tr>
+<tr>
+<td>RNF-08</td>
+<td>Los servicios deberán poder comprobarse mediante pruebas de conectividad y funcionamiento.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="43-requisitos-de-negocio">4.3. Requisitos de negocio</h2>
+<p>Los requisitos de negocio definen las necesidades principales de VeraVel que justifican el desarrollo de la infraestructura informática.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Código</strong></th>
+<th><strong>Requisito de negocio</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RN-01</td>
+<td>La empresa deberá disponer de una infraestructura informática centralizada para organizar sus recursos y servicios.</td>
+</tr>
+<tr>
+<td>RN-02</td>
+<td>La infraestructura deberá facilitar la gestión de la información relacionada con clientes, envíos y paquetes.</td>
+</tr>
+<tr>
+<td>RN-03</td>
+<td>La empresa deberá disponer de una página web corporativa para mejorar su presencia digital.</td>
+</tr>
+<tr>
+<td>RN-04</td>
+<td>La infraestructura deberá facilitar la administración y mantenimiento de los servicios informáticos.</td>
+</tr>
+<tr>
+<td>RN-05</td>
+<td>El sistema deberá permitir ampliar la infraestructura en función del crecimiento y las necesidades futuras de la empresa.</td>
+</tr>
+<tr>
+<td>RN-06</td>
+<td>La información de la empresa deberá gestionarse de forma organizada y con medidas básicas de protección.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="44-requisitos-por-modulos-de-asir">4.4. Requisitos por módulos de ASIR</h2>
+<h3 id="441-asgbd-administracion-de-sistemas-gestores-de-bases-de-datos">4.4.1. ASGBD - Administración de Sistemas Gestores de Bases de Datos</h3>
+<p>El proyecto deberá disponer de una base de datos que permita almacenar y gestionar de forma organizada la información relacionada con la actividad de VeraVel.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Código</strong></th>
+<th><strong>Requisito</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ASGBD-01</td>
+<td>La base de datos deberá permitir almacenar información de clientes.</td>
+</tr>
+<tr>
+<td>ASGBD-02</td>
+<td>La base de datos deberá permitir gestionar la información de los envíos y paquetes.</td>
+</tr>
+<tr>
+<td>ASGBD-03</td>
+<td>La información deberá estar organizada mediante tablas y relaciones.</td>
+</tr>
+<tr>
+<td>ASGBD-04</td>
+<td>El sistema gestor de bases de datos deberá permitir realizar consultas y gestionar la información almacenada.</td>
+</tr>
+<tr>
+<td>ASGBD-05</td>
+<td>Se deberán realizar copias de seguridad de la información de la base de datos.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="442-aso-administracion-de-sistemas-operativos">4.4.2. ASO - Administración de Sistemas Operativos</h3>
+<p>El proyecto deberá utilizar un sistema operativo de servidor que permita instalar, configurar y administrar los servicios necesarios para la infraestructura.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Código</strong></th>
+<th><strong>Requisito</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ASO-01</td>
+<td>El servidor deberá utilizar un sistema operativo Linux.</td>
+</tr>
+<tr>
+<td>ASO-02</td>
+<td>El sistema deberá permitir administrar usuarios y grupos.</td>
+</tr>
+<tr>
+<td>ASO-03</td>
+<td>El sistema deberá permitir configurar permisos de acceso a los recursos.</td>
+</tr>
+<tr>
+<td>ASO-04</td>
+<td>El sistema deberá permitir instalar y administrar los servicios necesarios para el proyecto.</td>
+</tr>
+<tr>
+<td>ASO-05</td>
+<td>El sistema deberá permitir realizar tareas de administración y mantenimiento del servidor.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="443-iaw-implantacion-de-aplicaciones-web">4.4.3. IAW - Implantación de Aplicaciones Web</h3>
+<p>El proyecto deberá disponer de una página web corporativa que permita presentar información de VeraVel y que pueda ser alojada en el servidor web de la infraestructura.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Código</strong></th>
+<th><strong>Requisito</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>IAW-01</td>
+<td>La infraestructura deberá disponer de un servidor web para alojar la página corporativa.</td>
+</tr>
+<tr>
+<td>IAW-02</td>
+<td>La página web deberá estar desarrollada utilizando HTML y CSS.</td>
+</tr>
+<tr>
+<td>IAW-03</td>
+<td>La página web deberá mostrar información relacionada con VeraVel.</td>
+</tr>
+<tr>
+<td>IAW-04</td>
+<td>La página web deberá poder ser accesible desde los equipos autorizados de la red.</td>
+</tr>
+<tr>
+<td>IAW-05</td>
+<td>El servicio web deberá poder comprobarse mediante pruebas de acceso y funcionamiento.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="444-servicios-de-red-e-internet">4.4.4. Servicios de Red e Internet</h3>
+<p>El proyecto deberá disponer de los servicios de red necesarios para permitir la comunicación y el funcionamiento de los diferentes equipos y servicios de la infraestructura.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Código</strong></th>
+<th><strong>Requisito</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SRI-01</td>
+<td>La infraestructura deberá disponer de un servicio DHCP para la asignación automática de direcciones IP.</td>
+</tr>
+<tr>
+<td>SRI-02</td>
+<td>La infraestructura deberá disponer de un servicio DNS para la resolución de nombres.</td>
+</tr>
+<tr>
+<td>SRI-03</td>
+<td>La infraestructura deberá disponer de un servicio HTTP para alojar la página web.</td>
+</tr>
+<tr>
+<td>SRI-04</td>
+<td>La infraestructura deberá disponer de un servicio FTP para la transferencia de archivos.</td>
+</tr>
+<tr>
+<td>SRI-05</td>
+<td>Los diferentes equipos y servicios deberán poder comunicarse correctamente dentro de la red.</td>
+</tr>
+<tr>
+<td>SRI-06</td>
+<td>Se deberán realizar pruebas de conectividad para comprobar el funcionamiento de la infraestructura.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="445-seguridad-y-alta-disponibilidad">4.4.5. Seguridad y Alta Disponibilidad</h3>
+<p>El proyecto deberá incorporar medidas básicas de seguridad y mecanismos que permitan mantener los servicios disponibles y proteger la información de la empresa.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Código</strong></th>
+<th><strong>Requisito</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SAI-01</td>
+<td>El acceso a los sistemas deberá estar protegido mediante usuarios y contraseñas.</td>
+</tr>
+<tr>
+<td>SAI-02</td>
+<td>Los usuarios deberán disponer únicamente de los permisos necesarios para realizar sus funciones.</td>
+</tr>
+<tr>
+<td>SAI-03</td>
+<td>El servidor deberá disponer de medidas básicas de protección frente a accesos no autorizados.</td>
+</tr>
+<tr>
+<td>SAI-04</td>
+<td>Se deberán realizar copias de seguridad de la información importante.</td>
+</tr>
+<tr>
+<td>SAI-05</td>
+<td>Se deberán realizar pruebas para comprobar el funcionamiento de los servicios después de realizar cambios en la configuración.</td>
+</tr>
+<tr>
+<td>SAI-06</td>
+<td>La infraestructura deberá estar preparada para facilitar futuras ampliaciones y tareas de mantenimiento.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="45-matriz-de-trazabilidad">4.5. Matriz de trazabilidad</h2>
+<p>La matriz de trazabilidad permite relacionar los requisitos definidos anteriormente con las partes del proyecto que permiten cumplirlos.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Requisito</strong></th>
+<th><strong>Área relacionada</strong></th>
+<th><strong>Elemento del proyecto</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RF-01</td>
+<td>ASO / SAD</td>
+<td>Usuarios, grupos y permisos</td>
+</tr>
+<tr>
+<td>RF-02</td>
+<td>SRI</td>
+<td>Servicio DHCP</td>
+</tr>
+<tr>
+<td>RF-03</td>
+<td>SRI</td>
+<td>Servicio DNS</td>
+</tr>
+<tr>
+<td>RF-04</td>
+<td>IAW / SRI</td>
+<td>Servidor web y página corporativa</td>
+</tr>
+<tr>
+<td>RF-05</td>
+<td>SRI</td>
+<td>Servicio FTP</td>
+</tr>
+<tr>
+<td>RF-06</td>
+<td>ASGBD</td>
+<td>Base de datos de VeraVel</td>
+</tr>
+<tr>
+<td>RF-07</td>
+<td>IAW</td>
+<td>Página web corporativa</td>
+</tr>
+<tr>
+<td>RF-08</td>
+<td>SRI</td>
+<td>Pruebas de conectividad</td>
+</tr>
+<tr>
+<td>RF-09</td>
+<td>SAD</td>
+<td>Copias de seguridad</td>
+</tr>
+<tr>
+<td>RF-10</td>
+<td>ASO</td>
+<td>Administración del servidor</td>
+</tr>
+<tr>
+<td>RNF-01</td>
+<td>SAD</td>
+<td>Medidas básicas de seguridad</td>
+</tr>
+<tr>
+<td>RNF-02</td>
+<td>ASO / SAD</td>
+<td>Usuarios y permisos</td>
+</tr>
+<tr>
+<td>RNF-04</td>
+<td>SAD</td>
+<td>Copias de seguridad</td>
+</tr>
+<tr>
+<td>RNF-06</td>
+<td>ASO</td>
+<td>Posibilidad de ampliación</td>
+</tr>
+<tr>
+<td>RN-01</td>
+<td>ASO</td>
+<td>Centralización de recursos y servicios</td>
+</tr>
+<tr>
+<td>RN-02</td>
+<td>ASGBD</td>
+<td>Gestión de clientes, envíos y paquetes</td>
+</tr>
+<tr>
+<td>RN-03</td>
+<td>IAW</td>
+<td>Página web corporativa</td>
+</tr>
+<tr>
+<td>RN-04</td>
+<td>ASO</td>
+<td>Administración de los servicios</td>
+</tr>
+<tr>
+<td>RN-05</td>
+<td>ASO</td>
+<td>Ampliación futura del sistema</td>
+</tr>
+<tr>
+<td>RN-06</td>
+<td>ASGBD / SAD</td>
+<td>Gestión y protección de la información</td>
+</tr>
+</tbody>
+</table></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
