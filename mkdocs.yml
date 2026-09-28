@@ -3,3 +3,6 @@ site_name: Proyecto Intermodular ASIR
 nav:
   - Inicio: index.md
   - Introducción: 01_introduccion.md
+  - Contexto: 02_contexto.md
+  - Alcance: 03_alcance.md
+  - Requisitos: 04_requisitos.md
