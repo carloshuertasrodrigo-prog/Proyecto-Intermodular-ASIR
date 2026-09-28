@@ -97,3 +97,15 @@ El presupuesto debe contemplar tanto los equipos necesarios para la infraestruct
 
 Como referencia para el proyecto, se tendrá en cuenta el coste del equipamiento, el software necesario y las horas de trabajo dedicadas al diseño, configuración, pruebas y documentación.
 
+## 3.5. Elección y justificación de la plataforma de virtualización
+
+Para el desarrollo del proyecto se utilizará GNS3 como plataforma principal para diseñar y simular la infraestructura de red.
+
+GNS3 permite representar la topología de red y comprobar el funcionamiento de los diferentes dispositivos y conexiones antes de realizar una posible implantación física.
+
+Se ha elegido GNS3 porque el proyecto necesita trabajar principalmente con una infraestructura de red formada por diferentes dispositivos y servicios. Además, permite realizar pruebas y detectar posibles problemas de configuración durante la fase de desarrollo.
+
+Para la ejecución de los servidores y máquinas virtuales se utilizará VirtualBox, que permitirá crear los entornos virtualizados necesarios para instalar y configurar los sistemas operativos y servicios del proyecto.
+
+Por tanto, GNS3 se utilizará principalmente para el diseño y simulación de la red, mientras que VirtualBox se utilizará para la virtualización de los servidores y equipos necesarios.
+
