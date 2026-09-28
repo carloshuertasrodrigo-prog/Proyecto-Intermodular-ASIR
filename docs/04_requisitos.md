@@ -36,3 +36,16 @@ Los requisitos no funcionales establecen las características que debe cumplir l
 | RNF-07 | La documentación técnica deberá permitir comprender y mantener la configuración realizada. |
 | RNF-08 | Los servicios deberán poder comprobarse mediante pruebas de conectividad y funcionamiento. |
 
+## 4.3. Requisitos de negocio
+
+Los requisitos de negocio definen las necesidades principales de VeraVel que justifican el desarrollo de la infraestructura informática.
+
+| **Código** | **Requisito de negocio** |
+|---|---|
+| RN-01 | La empresa deberá disponer de una infraestructura informática centralizada para organizar sus recursos y servicios. |
+| RN-02 | La infraestructura deberá facilitar la gestión de la información relacionada con clientes, envíos y paquetes. |
+| RN-03 | La empresa deberá disponer de una página web corporativa para mejorar su presencia digital. |
+| RN-04 | La infraestructura deberá facilitar la administración y mantenimiento de los servicios informáticos. |
+| RN-05 | El sistema deberá permitir ampliar la infraestructura en función del crecimiento y las necesidades futuras de la empresa. |
+| RN-06 | La información de la empresa deberá gestionarse de forma organizada y con medidas básicas de protección. |
+
