@@ -21,3 +21,18 @@ Los requisitos funcionales describen las funciones y servicios que debe proporci
 | RF-09 | El sistema deberá permitir realizar copias de seguridad de la información importante. |
 | RF-10 | El sistema deberá permitir administrar los servicios y recursos de la infraestructura desde el entorno de servidor. |
 
+## 4.2. Requisitos no funcionales
+
+Los requisitos no funcionales establecen las características que debe cumplir la infraestructura informática para garantizar un funcionamiento adecuado.
+
+| **Código** | **Requisito no funcional** |
+|---|---|
+| RNF-01 | La infraestructura deberá disponer de mecanismos básicos de seguridad para proteger los sistemas y la información. |
+| RNF-02 | Los usuarios deberán disponer únicamente de los permisos necesarios para realizar sus funciones. |
+| RNF-03 | Los servicios deberán estar configurados de forma que permitan una administración organizada de la infraestructura. |
+| RNF-04 | La infraestructura deberá permitir realizar copias de seguridad de la información importante. |
+| RNF-05 | Los servicios deberán ofrecer un funcionamiento estable durante su utilización. |
+| RNF-06 | La infraestructura deberá poder ampliarse en el futuro según las necesidades de VeraVel. |
+| RNF-07 | La documentación técnica deberá permitir comprender y mantener la configuración realizada. |
+| RNF-08 | Los servicios deberán poder comprobarse mediante pruebas de conectividad y funcionamiento. |
+
