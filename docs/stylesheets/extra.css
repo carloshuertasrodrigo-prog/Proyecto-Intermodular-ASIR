@@ -1,0 +1,14 @@
+.md-typeset table:not([class]) {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.md-typeset table:not([class]) th,
+.md-typeset table:not([class]) td {
+    border: 1px solid #999;
+    padding: 8px;
+}
+
+.md-typeset table:not([class]) th {
+    border-bottom: 2px solid #666;
+}
