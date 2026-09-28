@@ -26,3 +26,11 @@ Dentro de este contexto, las empresas del sector necesitan disponer de sistemas 
 
 El proyecto tiene en cuenta esta necesidad mediante una infraestructura informática centralizada que integra servicios de red, una base de datos y una página web corporativa.
 
+## 2.4. Contexto social y geográfico
+
+El proyecto se plantea para la empresa VeraVel, situada en Crevillent. La ubicación de la empresa forma parte del contexto en el que se desarrolla la infraestructura informática.
+
+La actividad de VeraVel está relacionada con la paquetería y mensajería, por lo que su infraestructura informática debe facilitar la gestión de la información y de los servicios necesarios para desarrollar su actividad.
+
+El proyecto tiene en cuenta este entorno para plantear una infraestructura informática organizada y adaptada a las necesidades de la empresa.
+
