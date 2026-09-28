@@ -75,3 +75,15 @@ El proyecto deberá utilizar un sistema operativo de servidor que permita instal
 | ASO-04 | El sistema deberá permitir instalar y administrar los servicios necesarios para el proyecto. |
 | ASO-05 | El sistema deberá permitir realizar tareas de administración y mantenimiento del servidor. |
 
+### 4.4.3. IAW - Implantación de Aplicaciones Web
+
+El proyecto deberá disponer de una página web corporativa que permita presentar información de VeraVel y que pueda ser alojada en el servidor web de la infraestructura.
+
+| **Código** | **Requisito** |
+|---|---|
+| IAW-01 | La infraestructura deberá disponer de un servidor web para alojar la página corporativa. |
+| IAW-02 | La página web deberá estar desarrollada utilizando HTML y CSS. |
+| IAW-03 | La página web deberá mostrar información relacionada con VeraVel. |
+| IAW-04 | La página web deberá poder ser accesible desde los equipos autorizados de la red. |
+| IAW-05 | El servicio web deberá poder comprobarse mediante pruebas de acceso y funcionamiento. |
+
