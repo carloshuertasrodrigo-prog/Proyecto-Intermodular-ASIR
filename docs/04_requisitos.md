@@ -119,24 +119,24 @@ La matriz de trazabilidad permite relacionar los requisitos definidos anteriorme
 
 | **Requisito** | **Área relacionada** | **Elemento del proyecto** |
 |---|---|---|
-| RF-01 | ASO / Seguridad | Usuarios, grupos y permisos |
-| RF-02 | Servicios de Red e Internet | Servicio DHCP |
-| RF-03 | Servicios de Red e Internet | Servicio DNS |
-| RF-04 | IAW / Servicios de Red e Internet | Servidor web y página corporativa |
-| RF-05 | Servicios de Red e Internet | Servicio FTP |
+| RF-01 | ASO / SAD | Usuarios, grupos y permisos |
+| RF-02 | SRI | Servicio DHCP |
+| RF-03 | SRI | Servicio DNS |
+| RF-04 | IAW / SRI | Servidor web y página corporativa |
+| RF-05 | SRI | Servicio FTP |
 | RF-06 | ASGBD | Base de datos de VeraVel |
 | RF-07 | IAW | Página web corporativa |
-| RF-08 | Servicios de Red e Internet | Pruebas de conectividad |
-| RF-09 | Seguridad y Alta Disponibilidad | Copias de seguridad |
+| RF-08 | SRI | Pruebas de conectividad |
+| RF-09 | SAD | Copias de seguridad |
 | RF-10 | ASO | Administración del servidor |
-| RNF-01 | Seguridad y Alta Disponibilidad | Medidas básicas de seguridad |
-| RNF-02 | ASO / Seguridad | Usuarios y permisos |
-| RNF-04 | Seguridad y Alta Disponibilidad | Copias de seguridad |
-| RNF-06 | ASO / Infraestructura | Posibilidad de ampliación |
-| RN-01 | Infraestructura | Centralización de recursos y servicios |
+| RNF-01 | SAD | Medidas básicas de seguridad |
+| RNF-02 | ASO / SAD | Usuarios y permisos |
+| RNF-04 | SAD | Copias de seguridad |
+| RNF-06 | ASO | Posibilidad de ampliación |
+| RN-01 | ASO | Centralización de recursos y servicios |
 | RN-02 | ASGBD | Gestión de clientes, envíos y paquetes |
 | RN-03 | IAW | Página web corporativa |
 | RN-04 | ASO | Administración de los servicios |
-| RN-05 | Infraestructura | Ampliación futura del sistema |
-| RN-06 | ASGBD / Seguridad | Gestión y protección de la información |
+| RN-05 | ASO | Ampliación futura del sistema |
+| RN-06 | ASGBD / SAD | Gestión y protección de la información |
 
