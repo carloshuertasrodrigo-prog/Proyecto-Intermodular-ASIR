@@ -49,3 +49,17 @@ Los requisitos de negocio definen las necesidades principales de VeraVel que jus
 | RN-05 | El sistema deberá permitir ampliar la infraestructura en función del crecimiento y las necesidades futuras de la empresa. |
 | RN-06 | La información de la empresa deberá gestionarse de forma organizada y con medidas básicas de protección. |
 
+## 4.4. Requisitos por módulos de ASIR
+
+### 4.4.1. ASGBD - Administración de Sistemas Gestores de Bases de Datos
+
+El proyecto deberá disponer de una base de datos que permita almacenar y gestionar de forma organizada la información relacionada con la actividad de VeraVel.
+
+| **Código** | **Requisito** |
+|---|---|
+| ASGBD-01 | La base de datos deberá permitir almacenar información de clientes. |
+| ASGBD-02 | La base de datos deberá permitir gestionar la información de los envíos y paquetes. |
+| ASGBD-03 | La información deberá estar organizada mediante tablas y relaciones. |
+| ASGBD-04 | El sistema gestor de bases de datos deberá permitir realizar consultas y gestionar la información almacenada. |
+| ASGBD-05 | Se deberán realizar copias de seguridad de la información de la base de datos. |
+
