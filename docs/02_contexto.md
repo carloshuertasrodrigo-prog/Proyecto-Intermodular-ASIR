@@ -34,3 +34,21 @@ La actividad de VeraVel está relacionada con la paquetería y mensajería, por 
 
 El proyecto tiene en cuenta este entorno para plantear una infraestructura informática organizada y adaptada a las necesidades de la empresa.
 
+## 2.5. Análisis DAFO
+
+El análisis DAFO permite identificar los factores internos y externos que pueden influir en el desarrollo del proyecto de infraestructura informática de VeraVel.
+
+| **Fortalezas** | **Debilidades** |
+|---|---|
+| Centralización de los recursos informáticos. | Dependencia de la infraestructura informática. |
+| Organización de los servicios y de la información. | Necesidad de personal con conocimientos técnicos para su administración. |
+| Uso de máquinas virtuales para separar servicios. | Recursos económicos y materiales limitados propios de una PYME. |
+| Integración de red, base de datos y página web. | La infraestructura necesita mantenimiento y actualizaciones. |
+
+| **Oportunidades** | **Amenazas** |
+|---|---|
+| Mejorar la gestión de la información de la empresa. | Fallos de hardware o de los servicios informáticos. |
+| Ampliar los servicios informáticos en el futuro. | Riesgos de seguridad informática. |
+| Incorporar nuevas tecnologías según las necesidades de la empresa. | Pérdida o acceso no autorizado a la información. |
+| Mejorar la presencia digital mediante la página web. | Necesidad de mantener los sistemas actualizados. |
+
